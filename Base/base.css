@@ -1,0 +1,323 @@
+ @media all
+{
+body{
+	margin:0;
+	padding:0;
+	background: lightblue url(Image/Fond.jpg) no-repeat fixed; 
+	/* -webkit-background-size: cover; */
+	background-size: cover;
+	color:#fff;
+	width:100%;
+	min-width: 200px;
+}
+:root {
+--color1:#17459a; /* #07696A; */
+--colorborder:#F8AF40;
+--colorlink:#F8AF40;
+--colorlinkover:#FFF;
+--colorp:#FFF;
+}
+html {
+/* font-size: 62.5%; */
+font-size: 100%;
+}
+ #conteneur{
+	width:100%;
+	height:calc(100%-40px);
+	margin-bottom:75px;
+}
+mark {
+  background-color: yellow;
+  color: black;
+}
+  /* Base */
+ #Menufond{
+	/*  background:var(--color1); */
+	background:var(--color1);
+	height: 45px;
+	top: 0;
+	margin: 0px;
+	width: 100%;
+	min-width: 200px;
+	border-bottom: solid 3px var(--colorborder);
+	z-index: 9999;
+	position: fixed;
+ 	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+	margin-bottom: 105px;
+ }
+ 
+ /* Base */
+ /* Logo */
+ .logo{
+	min-width: 50px;
+	float:left;
+	display:block;
+	/* padding:0px 0px 0px 50px; */
+	padding:0px;
+	margin-right: 0%;
+	margin-left: 50px;
+	max-height: auto;
+	max-width: 150px;
+	
+ }
+ .logo img{
+	 width: 100%;
+	 height: auto;
+	min-width: 50px;	
+	max-width: 150px;
+	min-height: auto;
+	max-height: auto;
+	float:center;
+	display:block;
+	padding:0px;
+	/* margin-right: 1%; */
+	 }
+ .reseau{
+	 background:#d3d3d3;
+	min-width: 50px;
+	float:right;
+	display:block;
+	padding-top:6px;
+	padding-right:1%;
+	padding-bottom:0px;
+	padding-left: 0px;
+ }
+ .logoreseau{
+	margin-left: 6px;
+	margin-right: 6px;
+ }
+ .textchemin{
+	max-height:auto;
+	float:right;
+	display:block;
+	font-family: helvetica, verdana, tahoma, arial;
+	text-transform: uppercase;
+	font-size: 1vw; /* 15px; */
+	display:block;
+	margin-top: 0px;
+    margin-right: 0.1em;
+    margin-bottom: 75px;
+    /* margin-left: calc(100% - 10em); */
+	color:var(--colorborder);
+	background-color: var(--color1);
+	text-decoration:none;
+	border: 1px solid var(--colorborder);
+	padding: 1px;
+    background-color: var(--color1);
+    border-radius: 1px;
+ }
+ .textchemin a{
+	font-family: helvetica, verdana, tahoma, arial;
+	text-transform: uppercase;
+	font-size: 1vw; /* 15px; */
+	padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+	color:var(--colorp);
+	text-decoration:none;
+	}
+ .textchemin a:hover{
+	font-family: helvetica, verdana, tahoma, arial;
+	text-transform: uppercase;
+	font-size: 1vw;
+	padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+	color:var(--colorborder);
+	text-decoration:underline
+	}
+ 
+ 
+ /* Logo */
+  /* Contenu */
+ #contenu{
+	min-width: 50px;
+	min-height: 500px;
+	display:block;
+	margin:50px 11% 50px 11%;
+	margin-bottom:75px;
+ }
+ 
+ #contenu .tabcontents p{
+	font-family: helvetica, verdana, tahoma, arial;
+	text-transform: uppercase;
+	text-align: center; /*justify;*/
+	/* font-size: 24px; */
+	font-size: 2.5vw;
+	color:var(--colorp);
+	text-decoration:none;
+ }
+ 
+ #contenu .tabcontents {
+	 position: absolute; /* postulat de départ */
+  top: 20%; left: 10%; right: 10%;/* à 50%/50% du parent référent */
+  	padding:10px 10px 10px 10px;
+  /*transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+    border: 2px solid var(--colorborder); padding: 30px;
+    background-color: var(--color1);
+    border-radius: 3px;
+	min-height: 25%;/* 300px; */
+	min-width: 50%;
+	opacity: 0.9;
+ }
+ #contenu .tabcontents p{
+	 font-size:1.5vw;
+ }
+ #contenu .tabcontents iframe{
+	 width:100%;
+	 height: 3000px;
+ }
+ 
+ 
+  #contenu .tabcontents a{
+	font-family: helvetica, verdana, tahoma, arial;
+	text-transform: uppercase;
+	font-size: 3vw;
+	padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+	color:var(--colorlink);
+		text-decoration:underline
+	}
+ #contenu .tabcontents a:hover{
+	font-family: helvetica, verdana, tahoma, arial;
+	text-transform: uppercase;
+	font-size: 3vw;
+	padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+	color:var(--colorlinkover);
+	text-decoration:underline
+	}
+	
+	 #contenu .tabcontents .plaquette1 a{
+
+	font-size: 2vw;
+	}
+ }
+ 
+ @media (max-width: 1350px) and (min-width: 850px)
+{
+    #Menufond{
+	background:var(--color1);
+	height: 40px;
+	top: 0;
+	margin: 0px;
+	width: 100%;
+	min-width: 200px;
+	border-bottom: solid 3px var(--colorborder);
+	z-index: 9999;
+	position: fixed;
+ 	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+	margin-bottom: 105px;
+ }
+ 
+ .textchemin{
+	font-size: 1vw;
+
+ }
+ .textchemin a{
+	font-size: 1vw;
+	}
+ .textchemin a:hover{
+	font-size: 1vw;
+	}
+	
+ .logo{
+	min-width: 25px;
+	float:left;
+	display:block;
+	/* padding:0px 0px 0px 50px; */
+	padding:0px;
+	margin-right: 0%;
+	margin-left: 25px;
+	max-height: auto;
+	max-width: 75px;
+ }
+ .logo img{
+	 width: 100%;
+	 height: auto;
+	min-width: 25px;	
+	max-width: 75px;
+	min-height: auto;
+	max-height: auto;
+	float:center;
+	display:block;
+	padding:0px;
+	/* margin-right: 1%; */
+	 }
+ .reseau{
+	min-width: 50px;
+		padding-top:2px;
+ }
+}
+@media (max-width: 850px)
+{
+#Menufond{
+	background:var(--color1);
+	height: 0px;
+	top: 0;
+	margin: 0px;
+	width: 100%;
+	min-width: 200px;
+	border-bottom: solid 0px var(--colorborder);
+	z-index: 9999;
+	position: fixed;
+ 	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+	margin-bottom: 105px;
+ }
+#MenuFond .text{
+display:block;
+/* position:relative; */
+float:right;
+padding-right:5%;
+} 
+ 
+ .textchemin{
+position: absolute;
+  top: -9999px;
+  left: -9999px;
+
+ }
+  .logo{
+	position: absolute;
+  top: -9999px;
+  left: -9999px;
+ }
+ .logo img{
+	position: absolute;
+  top: -9999px;
+  left: -9999px;
+	 }
+ .reseau{
+	position: absolute;
+  top: -9999px;
+  left: -9999px;
+ }
+ 
+  #contenu .tabcontents p{
+ font-size: 3vw;
+ }
+  #contenu .tabcontents a{
+ font-size: 3vw;
+ }
+ #contenu .tabcontents a:hover{
+	font-size: 3vw;
+	}
+ }
+
+}
+ /* Contenu */

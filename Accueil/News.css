@@ -1,79 +1,79 @@
-﻿/* Tab Content - menucool.com */
-ul.tabs
-{
-    padding: 6px 0;
-    font-size: 0;
-    margin:0;
-    list-style-type: none;
-    text-align: center; /*set to left, center, or right to align the tabs as desired*/
-	opacity: 0.75;
-}
-        
-ul.tabs li
-{
-    display: inline;
-    margin: 0;
-    margin-right:5px; /*distance between tabs*/
-}
-        
-ul.tabs li a
-{
-    font: normal 12px Verdana;
-    text-decoration: none;
-    position: relative;
-    padding: 6px 16px;
-    border: 1px solid #F8AF40;
-    border-bottom-color:#F8AF40;
-    color: #FFFFFF;
-    background: #313E47;
-    border-radius: 2px 2px 0 0;
-    outline:none;
-}
-        
-ul.tabs li a:visited
-{
-    color: #FFFFFF;
-}
-        
-ul.tabs li a:hover
-{
-    border: 1px solid #313E47;
-    background:#F8AF40;
-	color: #000000;
-}
-        
-ul.tabs li.selected a, ul.tabs li.selected a:hover
-{
-    padding: 9px 16px 6px;
-    position: relative;
-    top: 0px;
-    font-weight:bold;
-    background: #F8AF40;
-    border: 1px solid #313E47;
-    border-bottom-color: #313E47;
-	color: #000000;
-}
-        
-        
-ul.tabs li.selected a:hover
-{
-    text-decoration: none;
-}
-
-div.tabcontents
-{
-    border: 1px solid #F8AF40; padding: 30px;
-    background-color:#313E47;
-    border-radius: 2px;
-	min-height:calc(450px - 87px);
-	opacity: 0.75;
-}
-div.tabcontents2
-{
-	margin-top:5px;
-    border: 1px solid #F8AF40; padding: 30px 10px 30px 10px;
-    background-color:#313E47;
-    border-radius: 2px;
-	min-height:calc(450px - 63px);
-	opacity: 0.75;
+﻿/* Tab Content - menucool.com */
+ul.tabs
+{
+    padding: 6px 0;
+    font-size: 0;
+    margin:0;
+    list-style-type: none;
+    text-align: center; /*set to left, center, or right to align the tabs as desired*/
+	opacity: 0.75;
+}
+        
+ul.tabs li
+{
+    display: inline;
+    margin: 0;
+    margin-right:5px; /*distance between tabs*/
+}
+        
+ul.tabs li a
+{
+    font: normal 12px Verdana;
+    text-decoration: none;
+    position: relative;
+    padding: 6px 16px;
+    border: 1px solid #F8AF40;
+    border-bottom-color:#F8AF40;
+    color: #FFFFFF;
+    background: #313E47;
+    border-radius: 2px 2px 0 0;
+    outline:none;
+}
+        
+ul.tabs li a:visited
+{
+    color: #FFFFFF;
+}
+        
+ul.tabs li a:hover
+{
+    border: 1px solid #313E47;
+    background:#F8AF40;
+	color: #000000;
+}
+        
+ul.tabs li.selected a, ul.tabs li.selected a:hover
+{
+    padding: 9px 16px 6px;
+    position: relative;
+    top: 0px;
+    font-weight:bold;
+    background: #F8AF40;
+    border: 1px solid #313E47;
+    border-bottom-color: #313E47;
+	color: #000000;
+}
+        
+        
+ul.tabs li.selected a:hover
+{
+    text-decoration: none;
+}
+
+div.tabcontents
+{
+    border: 1px solid #F8AF40; padding: 30px;
+    background-color:#313E47;
+    border-radius: 2px;
+	min-height:calc(450px - 87px);
+	opacity: 0.75;
+}
+div.tabcontents2
+{
+	margin-top:5px;
+    border: 1px solid #F8AF40; padding: 30px 10px 30px 10px;
+    background-color:#313E47;
+    border-radius: 2px;
+	min-height:calc(450px - 63px);
+	opacity: 0.75;
 }

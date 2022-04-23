@@ -11,8 +11,7 @@
 	}
 
 	:root {
-		/* --color1: #17459a; */
-		--color1: rgba(0, 120, 0, 0.85);
+		--color1: #17459a;
 		/* #07696A; */
 		--colorborder: #F8AF40;
 		--colorlink: #F8AF40;
@@ -230,7 +229,7 @@
 	}
 }
 
-@media (max-width: 1350px) and (min-width: 950px) {
+@media (max-width: 1350px) and (min-width: 850px) {
 	#Menufond {
 		background: var(--color1);
 		height: 40px;
@@ -292,7 +291,7 @@
 	}
 }
 
-@media (max-width: 950px) {
+@media (max-width: 850px) {
 	#Menufond {
 		background: var(--color1);
 		height: 0px;
